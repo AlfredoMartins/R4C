@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:layout_marginTop="40dp"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_update_profile"
+            android:icon="@drawable/img_profile"
+            android:title="Perfil" />
+
+        <item
+            android:id="@+id/nav_tripper"
+            android:icon="@drawable/img_tripper"
+            android:title="Viagens" />
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/img_about"
+            android:title="Sobre" />
+
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Partilhar" />
+
+        <item
+            android:id="@+id/nav_exit"
+            android:icon="@drawable/img_exit"
+            android:title="Sair" />
+
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/img_logout"
+            android:title="Terminar Sessão" />
+
+    </group>
+
+</menu>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:title="Pesquisar na conversa" />
+
+    <item
+        android:id="@+id/nav_mute_notifications"
+        android:title="Silenciar notificações" />
+
+    <item
+        android:id="@+id/nav_contact_view"
+        android:title="Ver contacto" />
+
+    <item
+        android:id="@+id/nav_wallpaper"
+        android:title="Papel de parede" />
+
+
+    <item
+        android:id="@+id/nav_clean_chat"
+        android:title="Limpar chat" />
+
+</menu>

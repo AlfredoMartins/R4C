@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#414141</color>
+    <color name="colorYellow">#FBC02D</color>
+    <color name="colorYellowDark">#CA8F05</color>
+    <color name="colorYellowBackground">#FBBC05</color>
+    <color name="colorYellowLightBackground">#FAC01E</color>
+    <color name="colorRedNotification">#F8383E</color>
+    <color name="colorIcons">#636260</color>
+    <color name="dividerColor">#A3A7A7</color>
+    <color name="colorProgressBar">#AD7D0B</color>
+    <color name="colorYellowPrototipo">#FF8F00</color>
+    <color name="colorBlackYellowPrototipo">#212121</color>
+    <color name="colorGray">#35C644</color>
+    <color name="colorBlue">#009AFD</color>
+    <color name="colorOrange">#FD8D00</color>
+    <color name="colorRed">#C62828</color>
+    <color name="colorProfileBackground">#9EB6B6B6</color>
+    <color name="colorEarningBackground">#F1F1F2</color>
+    <color name="colorDefaultBackground">#F1F1F2</color>
+
+</resources>

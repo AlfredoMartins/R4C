@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.welcome.WelcomeActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="384dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="TODO"
+        app:srcCompat="@drawable/img_taxi" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Olá! Bem-vindo ao R4C ..."
+        android:textColor="#212020"
+        android:textSize="29sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Chega ao teu destino, em apenas um clique. \nTenha uma óptima viagem!"
+        android:textAlignment="center"
+        android:textColor="#292929" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="122dp"
+            android:layout_height="67dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/transparent_bd_borded"
+            android:text="@string/entrar"
+            android:textAllCaps="false"
+            android:textColor="#5b5b5b"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/btn_signup"
+            android:layout_width="122dp"
+            android:layout_height="67dp"
+            android:background="#5b5b5b"
+            android:text="@string/registrar"
+            android:textAllCaps="false"
+            android:textColor="#f1f1f1"
+            android:textSize="22sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

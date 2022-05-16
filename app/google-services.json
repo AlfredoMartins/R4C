@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "231155835297",
+    "firebase_url": "https://r4c-taxi-serivce.firebaseio.com",
+    "project_id": "r4c-taxi-serivce",
+    "storage_bucket": "r4c-taxi-serivce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:231155835297:android:e3c8257c61be2d47",
+        "android_client_info": {
+          "package_name": "ao.co.r4c"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "231155835297-0gvf2lkdc9the8sub7377hcknigsaj37.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7qAudKL1_8B18_YcMzNePNmZ_WYkL19w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "231155835297-0gvf2lkdc9the8sub7377hcknigsaj37.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

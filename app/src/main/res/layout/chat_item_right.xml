@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:padding="10dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_user_image"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/img_alfredo"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="10dp"
+        android:layout_toEndOf="@id/img_user_image"
+        android:background="@drawable/chat_item_right_border"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+
+        <TextView
+            android:id="@+id/txt_text_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="Segoe UI"
+            android:text="Vectores são variáveis compostas homogéneas unidimensionais também conhecidas como arrays. Eles possuem diversas propriedades."
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/txt_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_text_message"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="5dp"
+            android:layout_toLeftOf="@id/img_sent_message"
+            android:text="21h:03min 28/07/2019"
+            android:textColor="@android:color/black"
+            android:textSize="12sp" />
+
+
+        <ImageView
+            android:id="@+id/img_sent_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_text_message"
+            android:layout_marginTop="5dp"
+            android:layout_toLeftOf="@id/img_seen_message"
+            android:textColor="@android:color/black"
+            android:textSize="12sp"
+            app:srcCompat="@drawable/ic_done" />
+
+        <ImageView
+            android:id="@+id/img_seen_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_text_message"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="5dp"
+            android:textColor="@android:color/black"
+            android:textSize="12sp"
+            app:srcCompat="@drawable/ic_done" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

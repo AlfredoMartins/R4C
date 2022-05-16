@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f1f1"
+    android:orientation="vertical"
+    tools:context=".activity.splash.SplashScreen">
+
+    <ImageView
+        android:id="@+id/img_logo"
+        android:layout_width="match_parent"
+        android:layout_height="256dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="150dp"
+        android:contentDescription="@string/todo"
+        app:srcCompat="@drawable/r4c_logo_img" />
+
+    <TextView
+        android:id="@+id/txtPowered"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:gravity="bottom"
+        android:text="@string/powered_by_codetyper"
+        android:textColor="#414141"
+        android:textSize="18sp" />
+</RelativeLayout>

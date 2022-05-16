@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+    android:orientation="vertical"
+    android:paddingLeft="30dp"
+    android:paddingTop="30dp"
+    android:paddingRight="30dp"
+    android:theme="@style/ThemeOverlay.MaterialComponents"
+    tools:context=".activity.login.LoginActivity">
+
+
+    <ImageView
+        android:id="@+id/img_logo"
+        android:layout_width="match_parent"
+        android:layout_height="166dp"
+        android:layout_marginBottom="30dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/r4c_logo_img" />
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/layout_username"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/img_logo"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/yellow_border"
+        app:hintEnabled="false">
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/txt_username"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:drawableStart="@drawable/icon_username"
+            android:drawablePadding="5dp"
+            android:hint="Nome de Usuário ou E-mail"
+            android:inputType="textPersonName"
+            android:paddingStart="10dp"
+            android:paddingEnd="20dp"
+            android:scaleType="fitCenter"
+            android:singleLine="false"
+            android:textColor="#060606"
+            android:textSize="16sp" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/layout_password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/yellow_border"
+        app:hintEnabled="false"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="@null">
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/txt_password"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/txt_username"
+            android:background="@null"
+            android:drawableStart="@drawable/icon_password"
+            android:drawablePadding="5dp"
+            android:hint="@string/senha"
+            android:inputType="textPassword"
+            android:paddingStart="10dp"
+            android:paddingEnd="20dp"
+            android:textColor="#060606"
+            android:textSize="16sp" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <CheckBox
+        android:id="@+id/ckb_remember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="70dp"
+        android:text="@string/lembrar_me" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ckb_remember"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp">
+
+        <ProgressBar
+            android:id="@+id/loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:theme="@style/Widget.AppCompat.ProgressBar"
+            android:visibility="visible" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/yellow_border"
+            android:fontFamily="Segoe UI"
+            android:text="@string/iniciar_sess_o"
+            android:textAllCaps="false"
+            android:textColor="#fcfcfc"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+
+    </FrameLayout>
+
+
+    <TextView
+        android:id="@+id/txt_ou"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Ou"
+        android:textColor="#0b0b0b"
+        android:textSize="16dp"
+        android:visibility="invisible" />
+
+    <LinearLayout
+        android:id="@+id/linear_contas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/txt_conta"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:autoLink="web"
+            android:gravity="bottom"
+            android:paddingBottom="20dp"
+            android:text="@string/ainda_n_o_tenho_uma_conta_registrar"
+            android:textColor="#0b0b0b"
+            android:textSize="16sp" />
+
+
+        <ImageButton
+            android:id="@+id/img_google"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="8dp"
+            android:background="#f1f1f1"
+            android:visibility="gone"
+            app:srcCompat="@drawable/img_google" />
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/txt_esqueci"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:autoLink="web"
+        android:gravity="bottom"
+        android:paddingBottom="20dp"
+        android:text="@string/esqueci_a_minha_senha"
+        android:textColor="#0b0b0b"
+        android:textSize="16sp" />
+
+
+</LinearLayout>

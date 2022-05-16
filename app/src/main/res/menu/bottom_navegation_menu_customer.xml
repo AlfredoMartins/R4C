@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/home_icon_silhouette__1_"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/nav_embolso"
+        android:icon="@drawable/cash"
+        android:title="Embolso" />
+
+    <item
+        android:id="@+id/nav_chat"
+        android:icon="@drawable/chat"
+        android:title="Mensagens" />
+
+    <item
+        android:id="@+id/nav_notification"
+        android:icon="@drawable/newsfeed"
+        android:title="Notícias" />
+
+
+    <item
+        android:id="@+id/nav_favoritos"
+        android:icon="@drawable/favourites_filled_star_symbol"
+        android:title="Avaliações" />
+
+</menu>

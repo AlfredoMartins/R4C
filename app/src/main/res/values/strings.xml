@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">R4C</string>
+    <string name="powered_by_codetyper">Powered by CodeTyper Angola</string>
+    <string name="todo">TODO</string>
+    <string name="registrar">Registrar</string>
+    <string name="entrar">Entrar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lembrar_me">Lembrar-me</string>
+    <string name="senha">Senha</string>
+    <string name="iniciar_sess_o">Iniciar Sessão</string>
+    <string name="repor_senha">Para repor a senha, introduza o seu telefone e lhe será enviado um código de confirmação.</string>
+    <string name="reenviar_c_digo"><u>Reenviar código</u>.</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Alfredo Martins</string>
+    <string name="nav_header_subtitle">alfredo.martins@r4c.ao</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_driver_maps">Driver Map</string>
+
+
+    /*Novo*/
+
+    <string name="no_geocoder_available">No geocoder available</string>
+
+    <string name="fetch_address">Fetch address</string>
+
+    <string name="address_found">Address found</string>
+
+    <string name="no_address_found">Sorry, no address found</string>
+    <string name="no_location_data_provided">No location data provided</string>
+    <string name="service_not_available">Sorry, the service is not available</string>
+    <string name="invalid_lat_long_used">Invalid latitude or longitude used</string>
+
+
+    <string name="permission_rationale">Location permission is needed for core functionality</string>
+    <string name="permission_denied_explanation">Permission was denied, but is needed for core
+        functionality.</string>
+    <string name="settings">Settings</string>
+    <string name="title_activity_customer_message_fragment">CustomerMessageFragment</string>
+    <string name="title_activity_about">Informações do aplicativo</string>
+    <string name="title_activity_settings">Definições</string>
+    <string name="title_activity_notifications">Notificações</string>
+    <string name="title_activity_trips">Histórico de Viagens</string>
+    <string name="title_activity_thanks">ThanksActivity</string>
+    <string name="title_activity_cost_trip">Embolso</string>
+    <string name="esqueci_a_minha_senha"><u>Esqueci a minha senha.</u></string>
+    <string name="j_tenho_uma_conta"><u>Já tenho uma conta.</u></string>
+    <string name="ainda_n_o_tenho_uma_conta_registrar"><u>Ainda não tenho uma conta. Registrar?</u></string>
+
+</resources>

@@ -24,6 +24,6 @@ external server.
 
 ## Demo
 
-Insert gif or link to demo
-https://mega.nz/file/vC5AnTRT#zTdFMXMbuck9-g0Xitf5Vm4oNWKjDvBdm3WhlPUR0fQ
-<iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/vC5AnTRT#zTdFMXMbuck9-g0Xitf5Vm4oNWKjDvBdm3WhlPUR0fQ" allowfullscreen ></iframe>
+
+Click to watch the video: https://mega.nz/file/vC5AnTRT#zTdFMXMbuck9-g0Xitf5Vm4oNWKjDvBdm3WhlPUR0fQ
+

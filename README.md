@@ -42,4 +42,4 @@ external server.
 ## Demo
 
 
-Click to watch the video: (https://youtu.be/XGSYtQxC-zQ)[https://youtu.be/XGSYtQxC-zQ]
+Click to watch the video: [https://youtu.be/XGSYtQxC-zQ](https://youtu.be/XGSYtQxC-zQ)

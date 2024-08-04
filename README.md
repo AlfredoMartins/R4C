@@ -42,5 +42,4 @@ external server.
 ## Demo
 
 
-Click to watch the video: https://mega.nz/file/vC5AnTRT#zTdFMXMbuck9-g0Xitf5Vm4oNWKjDvBdm3WhlPUR0fQ
-
+Click to watch the video: (https://youtu.be/XGSYtQxC-zQ)[https://youtu.be/XGSYtQxC-zQ]

@@ -1,10 +1,10 @@
+
 # CARONA REMUNERADA
 
 Carona Remunerada, or Paid Ride in English, is an Android application designed to provide the Angolan population with convenient access to taxi services anywhere in the country. The app connects users with the nearest available driver, making transportation more efficient—especially for students.
 
-The app is built for Android, with **Adobe XD** for UI design and external servers for data management.
-
 ## ScreenShots
+
 ![image24](https://user-images.githubusercontent.com/34483729/188131868-6f5a361c-efe4-4475-b529-e1e14afd6619.png)
 ![image25](https://user-images.githubusercontent.com/34483729/188131871-9e37cd07-1aad-4917-8d79-dd81d6091353.png)
 ![image26](https://user-images.githubusercontent.com/34483729/188131873-bfc9d60c-5c34-4f97-9412-42454c87cda9.png)
@@ -23,6 +23,10 @@ The app is built for Android, with **Adobe XD** for UI design and external serve
 ## Demo
 
 Click to watch the video: [https://youtu.be/XGSYtQxC-zQ](https://youtu.be/XGSYtQxC-zQ)
+
+## Documentation Availability
+
+> **This project has PDF documentation (in Portuguese) and can be requested from the project owner.**
 
 # How to Run the 'r4c' Project on Android Studio
 
@@ -68,8 +72,6 @@ If there are any issues:
 
 Once the app successfully builds, it will launch automatically on the selected device.
 
-# Software Architecture Patterns Documentation
-
 ## Recommendations
 
 To ensure the proper functioning of the application, the following minimum system requirements are recommended:
@@ -89,3 +91,9 @@ To ensure the proper functioning of the application, the following minimum syste
 - **Antivirus**: Recommended Kaspersky PURE 2.0 Total Security 2019
 
 ---
+## Contacts
+
+For further information or to request the PDF documentation, you can contact the project owner at:
+
+- **Email**: [alfredo.martins.work@gmail.com](mailto:alfredo.martins.work@gmail.com)
+- **GitHub**: [AlfredoMartins](https://github.com/AlfredoMartins)

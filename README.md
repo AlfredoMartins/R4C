@@ -1,11 +1,6 @@
 # CARONA REMUNERADA
 
-Angola’s growing population relies heavily on taxis for transportation. To improve taxi services, this project focuses on developing a mobile app that calculates fares based on distance and time, enhancing efficiency and accessibility.  
-
-The project is divided into three phases:  
-1. **Theoretical Rationale** – Overview of transportation.  
-2. **Practical Rationale** – Methodologies and technologies used.  
-3. **Implementation** – App development process.  
+Carona Remunerada, or Paid Ride in English, is an Android application designed to provide the Angolan population with convenient access to taxi services anywhere in the country. The app connects users with the nearest available driver, making transportation more efficient—especially for students.
 
 The app is built for Android, with **Adobe XD** for UI design and external servers for data management.
 
@@ -28,3 +23,69 @@ The app is built for Android, with **Adobe XD** for UI design and external serve
 ## Demo
 
 Click to watch the video: [https://youtu.be/XGSYtQxC-zQ](https://youtu.be/XGSYtQxC-zQ)
+
+# How to Run the 'r4c' Project on Android Studio
+
+Follow these steps to run the 'r4c' project on Android Studio:
+
+## 1. Clone the Repository
+
+Start by cloning the repository using Git.
+
+```bash
+git clone https://github.com/AlfredoMartins/r4c.git
+```
+
+## 2. Open the Project in Android Studio
+
+- Open Android Studio.
+- Select `Open an Existing Project` and navigate to the folder where you cloned the repository.
+- Choose the project directory (`r4c`).
+
+## 3. Install Dependencies
+
+Ensure you have the necessary SDKs and dependencies installed:
+- **SDK Version**: Ensure your project has the correct Android SDK version.
+- **Gradle**: Let Android Studio sync Gradle by clicking on 'Sync Now' when prompted.
+
+## 4. Build the Project
+
+After the Gradle sync finishes, click on the "Build" option:
+- In Android Studio, go to `Build` > `Make Project` or simply click the "Build" icon.
+
+## 5. Run the App
+
+- To run the app, select the target device (either an emulator or a physical Android device).
+- Click on the green "Run" button (a triangle icon) in the top-right corner of Android Studio.
+
+## 6. Debugging
+
+If there are any issues:
+- Check the "Logcat" for errors.
+- Make sure the Android Emulator is properly set up if using one.
+
+## 7. Launch the App
+
+Once the app successfully builds, it will launch automatically on the selected device.
+
+# Software Architecture Patterns Documentation
+
+## Recommendations
+
+To ensure the proper functioning of the application, the following minimum system requirements are recommended:
+
+### Client:
+- **Operating System**: Android 7.0 Nougat or higher
+- **Memory**: 1GB
+- **Processor**: 1.2GHz Core
+- **Storage**: 4GB
+
+### Server:
+- **Operating System**: Microsoft Windows 10
+- **Memory**: 10GB
+- **Hard Drive**: 200GB
+- **Processor**: 5GHz
+- **Database Server**: MySQL and Node.js
+- **Antivirus**: Recommended Kaspersky PURE 2.0 Total Security 2019
+
+---
